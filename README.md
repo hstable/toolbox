@@ -5,6 +5,8 @@
 在未连入校园网账号时获取 IPv6 地址（绝大多数情况够用）：
 ```bash
 dhclient -6
+# check the connectivity
+ping -6 hub.ip233.cn
 ```
 
 IPv6 可用的 Github 镜像站（git clone 时将 github.com 替换为下列地址）：
